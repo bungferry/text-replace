@@ -1,4 +1,4 @@
-const main = document.getElementById('main');
+const main = document.getElementById('root');
 
 const externalHTML = `<article class="markdown-body">
   <h1>Fancy Text Generator</h1>
