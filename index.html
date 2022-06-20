@@ -392,6 +392,12 @@ flex-wrap: wrap;
         </article>
 
 <iframe src="https://www.google.com/recaptcha/api2/aframe" width="0" height="0" style="display: none;"></iframe>
-<script src="script.js"></script>
+
+<script type="text/javascript">
+        let scriptElement = document.createElement("script");
+        scriptElement.type = "text/javascript";
+        scriptElement.src = "script.js";
+        document.body.appendChild(scriptElement);
+</script>
 </body>
 </html>
